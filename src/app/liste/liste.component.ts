@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-liste',
@@ -9,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './liste.component.css'
 })
 export class ListeComponent{
- 
+
 }
