@@ -1,0 +1,12 @@
+<div>
+    <p >add works!</p>
+  <strong>Nom: {{nom}}</strong><br>
+  <strong>Age: {{age}}</strong><br>
+  <strong>Compteur: {{compteur}} </strong><br>
+
+  <button (click)="avancer()">Incrementer</button>
+ 
+<input type="text" [(ngModel)]="phoneNumber" (ngModelChange)="valueToParent($event)" placeholder="entrer un nombre">
+
+
+</div>
